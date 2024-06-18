@@ -1,0 +1,21 @@
+--
+-- Porta and em VHDL
+--
+-- Duas entradas: a e b
+-- Uma saída: o
+--
+-- Autor: Clarissa Lima
+-- Data: 18/06
+
+	library IEEE;
+	use IEEE.std_logic_1164;
+	
+	entity my_and is port
+	(
+		a  : std_logic;
+		b  : std_logic;
+		o  : std_logic;
+	
+	);
+	
+	end my_and;
